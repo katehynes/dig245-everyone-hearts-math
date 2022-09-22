@@ -1,7 +1,7 @@
 /* javascript */
 // $("h1").hide();
 //$(".clickme").click(function(eventObject) {
-  //console.log("ah", eventObject);
+//console.log("ah", eventObject);
 //}
 
 
@@ -20,15 +20,14 @@ function calculateDays(firstDay, secondDay) {
   let time2 = secondDay.getTime();
   if (time1 < time2) {
     distance = time2 - time1;
-  }
-  else {
+  } else {
     distance = time1 - time2;
   }
   distance = distance / MILLI_PER_DAY;
   console.log("Number of days between " + firstDay + " and " + secondDay + " is: " + distance);
 }
 
-  //let str = "";
+//let str = "";
 
 //   if (username == requiredUsername) {
 //     str = `
