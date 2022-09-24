@@ -14,25 +14,60 @@
 <body>
 
   <!-- visible content goes here -->
-  <div class="header" <h1>DIG 245 Everyone ♥ Math</h1>
+  <div class="container">
+    <div class="row">
+        <!-- Col 1: Everyone Loves Math -->
+      <div class="col">
+        <h1>DIG 245 Everyone ♥ Math</h1>
+    </div>
+      <!-- Col 2: Time Machine form -->
+      <div class="col">
+        <h1>Time Machine</h1>
+        <div class="row">
+          <form>
+          <div class="col">
+            <label for="firstDay">Starting Date:</label>
+            <input type="date" name="firstDay" id="firstDay">
+          </div>
+          <div class="col">
+            <label for="secondDay">Destination:</label>
+            <input type="date" name="secondDay" id="secondDay">
+          </div>
+        </form>
+      </div>
+    </div>
+        <!-- Col 3: explanation & instructions to view console -->
+      <div class="col">
+        <div class="explanation">
+            <p>Go back in time or take a trip to the future! Choose any two dates – past, present, or future – from the options below. Guess how many days you think there are in between them,
+              and click "Submit" to see the correct answer!</p>
+        </div>
+        <div class="instructions">
+          <p>Open up the console to see the formula used to calculate the time travel distance! You can do this by
+            right clicking, choose "Inspect," and select "Console," OR you can press Command+Shift+j on a Mac.
+        </div>
+      </div>
+    </div>
   </div>
-  <h2>Time Flies...</h2>
-  <p class="explanation">Choose any two dates – past, present, or future – from the options below. Guess how many days you think are in between them,
-    and press submit to see the correct answer!</p>
+
+  <!-- <div class="explanation">
+  <h2>Time Machine</h2>
+  <p>Go back in time or take a trip to the future! Choose any two dates – past, present, or future – from the options below. Guess how many days you think there are in between them,
+    and click "Submit" to see the correct answer!</p>
   </div>
 
   <form>
     <div class="row">
-      <label for="firstDay">Choose a day:</label>
+      <label for="firstDay">Starting Date:</label>
       <input type="date" name="firstDay" id="firstDay">
-      <label for="secondDay">Choose another day:</label>
+      <label for="secondDay">Destination:</label>
       <input type="date" name="secondDay" id="secondDay">
       <input type="submit">
-    </div>
+    </div> -->
 
-    <div class="output"></div>
+    <!-- <div class="output"></div>
   </form>
-  </div>
+  </div> -->
 
   <!-- jQuery, Bootstrap, then Main -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">

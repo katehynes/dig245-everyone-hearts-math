@@ -25,6 +25,7 @@ function calculateDays(firstDay, secondDay) {
   }
   distance = distance / MILLI_PER_DAY;
   console.log("Number of days between " + firstDay + " and " + secondDay + " is: " + distance);
+  alert(distance + " Days Between");
 }
 
 //let str = "";
