@@ -24,8 +24,10 @@ function calculateDays(firstDay, secondDay) {
     distance = time1 - time2;
   }
   distance = distance / MILLI_PER_DAY;
+  document.getElementById("distance-in-day").textContent = distance;
   console.log("Number of days between " + firstDay + " and " + secondDay + " is: " + distance);
-  alert(distance + " Days Between");
+
+  // alert(distance + " Days in Between");
 }
 
 //let str = "";
