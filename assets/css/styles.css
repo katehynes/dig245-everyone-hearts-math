@@ -1,2 +1,42 @@
 
 /* css */
+#col-1{
+  background: #F0EECD;
+}
+
+p.title{
+  position: relative;
+  width: 452px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Baskerville';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #000000;
+}
+
+#col-2{
+  background: #333333;
+  font-family: 'Baskerville';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+  }
+
+#col-3{
+  background: #000000;
+  font-family: 'Baskerville';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
