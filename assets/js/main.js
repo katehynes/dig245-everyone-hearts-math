@@ -1,9 +1,4 @@
 /* javascript */
-// $("h1").hide();
-//$(".clickme").click(function(eventObject) {
-//console.log("ah", eventObject);
-//}
-
 
 const MILLI_PER_DAY = 1000 * 60 * 60 * 24;
 
@@ -26,22 +21,7 @@ function calculateDays(firstDay, secondDay) {
   distance = distance / MILLI_PER_DAY;
   document.getElementById("distance-in-day").textContent = distance;
   console.log("Number of days between " + firstDay + " and " + secondDay + " is: " + distance);
-
-  // alert(distance + " Days in Between");
+  console.log("The Math!");
+  console.log("number of milliseconds in a day: 1000 milliseconds/sec * 60 sec/min * 60min/hour * 24hour/day");
+  console.log("distance = ((time of start date: " + time1 + ") - (time of destination: " + time2 + ") / (number of milliseconds per day))");
 }
-
-//let str = "";
-
-//   if (username == requiredUsername) {
-//     str = `
-//     <div class="alert alert-success" role="alert">
-//     Welcome, friend. </div>
-//     `
-//   } else {
-//     str = `
-//     <div class="alert alert-danger" role="alert">Not allowed</div>
-//     `
-//   }
-//
-//   $(".output").html(str);
-// });
