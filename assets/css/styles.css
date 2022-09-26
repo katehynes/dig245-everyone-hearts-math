@@ -77,3 +77,8 @@ height: auto;
   font-weight: 700;
   font-size: 30px;
 }
+
+footer{
+  text-align: center;
+  font-family: 'Times';
+}
